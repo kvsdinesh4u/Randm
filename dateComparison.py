@@ -96,7 +96,7 @@ def finalDaysdifference(startdate,endDate,startYear,endYear,startMonth,endMonth)
 
      finalNoOfDays = noOfDaysBasedYears(startYear, endYear) - DaysforMonths(startMonth, startYear) - int(startdate) + DaysforMonths(endMonth, endYear) + int(endDate)
 
-    print(finalNoOfDays)
+    print("No of days between two dates:",finalNoOfDays)
 
 
 if __name__ == '__main__':
